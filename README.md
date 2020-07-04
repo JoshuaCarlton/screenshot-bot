@@ -12,8 +12,6 @@ An attempt to implement the screenshot generation of telegram files without down
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/JoshuaCarlton/screenshot-bot)
 
-### Watch our YouTube video for more details - [Telegram Screenshot | Trim | Sample Video Generator Bot](https://youtu.be/Fsc-ZUvdO20)
-
 ### Prerequisites
 * FFmpeg.
 * Python3 (3.6 or higher).
