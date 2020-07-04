@@ -21,7 +21,7 @@ async def start(c, m):
             [
                 [
                     InlineKeyboardButton('Join Movie Group', url='https://t.me/MC_MovieWorld_Group'),
-                    InlineKeyboardButton('Join MC MovieWorld', url='https://t.me/TGBotsZ')
+                    InlineKeyboardButton('Join MC MovieWorld', url='https://t.me/joinchat/AAAAAFXiIKAdTl4ufsMOkA')
                 ],
                 [
                     InlineKeyboardButton('💡  Source Code', url='https://github.com/JoshuaCarlton/screenshot-bot'),
