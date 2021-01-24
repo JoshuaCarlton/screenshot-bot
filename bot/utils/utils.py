@@ -306,7 +306,7 @@ async def screenshot_fn(c, m):
         else:
             await media_msg.reply_media_group(screenshots, True)
         
-        await edit_message_text(m, text=f'Successfully completed process in {datetime.timedelta(seconds=int(time.time()-start_time))}\n\n\n\n©️ @odbots  @MC_LinkzZ')
+        await edit_message_text(m, text=f'Successfully completed process in {datetime.timedelta(seconds=int(time.time()-start_time))}\n\n\n\nIf you found this Bot is Usefull Please Rate Me in <a href="https://t.me/tlgrmcbot?start=mc_ssbot">Telegramic</b> @MC_LinkzZ')
         c.CURRENT_PROCESSES[chat_id] -= 1
         
     except:
@@ -403,7 +403,7 @@ async def sample_fn(c, m):
                 supports_streaming=True
             )
         
-        await edit_message_text(m, text=f'Successfully completed process in {datetime.timedelta(seconds=int(time.time()-start_time))}\n\n\n\n©️ @odbots  @MC_LinkzZ')
+        await edit_message_text(m, text=f'Successfully completed process in {datetime.timedelta(seconds=int(time.time()-start_time))}\n\n\n\nIf you found this Bot is Usefull Please Rate Me in <a href="https://t.me/tlgrmcbot?start=mc_ssbot">Telegramic</b> @MC_LinkzZ')
         c.CURRENT_PROCESSES[chat_id] -= 1
         
     except:
@@ -524,7 +524,7 @@ async def trim_fn(c, m):
             supports_streaming=True
         )
         
-        await snt.edit_text(f'Successfully completed process in {datetime.timedelta(seconds=int(time.time()-start_time))}\n\n\n\n©️ @odbots  @MC_LinkzZ')
+        await snt.edit_text(f'Successfully completed process in {datetime.timedelta(seconds=int(time.time()-start_time))}\n\n\n\nIf you found this Bot is Usefull Please Rate Me in <a href="https://t.me/tlgrmcbot?start=mc_ssbot">Telegramic</b> @MC_LinkzZ')
         c.CURRENT_PROCESSES[chat_id] -= 1
         
     except:
